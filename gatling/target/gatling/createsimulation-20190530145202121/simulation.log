@@ -1,0 +1,9 @@
+RUN	com.testingexcellence.simulations.CreateSimulation	createsimulation	1559227922121	 	3.1.2
+USER	Testes Funcionais Conector X0	2	START	1559227923871	1559227923871
+USER	Testes Funcionais Conector IMS	1	START	1559227923852	1559227923852
+REQUEST	1		Request - IMS - Code 200	1559227923921	1559227924203	KO	status.find.is(200), but actually found 404
+REQUEST	2		Request - X0 - Code 200	1559227923921	1559227924203	KO	status.find.is(200), but actually found 404
+REQUEST	2		Request - X0 - Code 400	1559227924248	1559227924408	KO	status.find.is(200), but actually found 404
+REQUEST	1		Request - IMS - Code 422	1559227924248	1559227924411	KO	status.find.is(422), but actually found 404
+USER	Testes Funcionais Conector X0	2	END	1559227923871	1559227924414
+USER	Testes Funcionais Conector IMS	1	END	1559227923852	1559227924419

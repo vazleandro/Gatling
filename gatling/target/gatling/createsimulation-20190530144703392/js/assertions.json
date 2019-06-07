@@ -1,0 +1,10 @@
+{
+  "simulation": "com.testingexcellence.simulations.CreateSimulation",
+  "simulationId": "createsimulation",
+  "start": 1559227623392,
+  "description": "",
+  "scenarios": ["Testes Funcionais Conector IMS", "Testes Funcionais Conector X0"],
+  "assertions": [
+
+  ]
+}

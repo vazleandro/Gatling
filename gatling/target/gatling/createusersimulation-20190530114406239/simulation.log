@@ -1,0 +1,7 @@
+RUN	com.testingexcellence.simulations.CreateUserSimulation	createusersimulation	1559216646239	 	3.1.2
+USER	Cenários de Testes Funcionais Conector X0	1	START	1559216648132	1559216648132
+REQUEST	1		Conector XO HttpCode 200	1559216648180	1559216648541	OK	 
+REQUEST	1		Conector XO HttpCode 200 Redirect 1	1559216648557	1559216648642	OK	 
+REQUEST	1		Conector XO HttpCode 400	1559216648651	1559216648705	OK	 
+REQUEST	1		Conector XO HttpCode 400 Redirect 1	1559216648706	1559216648787	OK	 
+USER	Cenários de Testes Funcionais Conector X0	1	END	1559216648132	1559216648791
