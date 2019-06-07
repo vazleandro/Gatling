@@ -26,6 +26,7 @@ object CreateScenario {
 
 }
 
+//
 // https://www.testingexcellence.com/gatling-maven-performance-test-framework/
 //https://github.com/soujava/soujava-test-kit/blob/master/gatling/pom.xml
 //https://medium.com/@alexalves_85598/testes-de-performance-em-apis-55f144aeb344
